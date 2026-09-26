@@ -5,8 +5,8 @@ function PlatformIcon({ src, alt, className = "h-7 w-7" }) {
 }
 
 const PLATFORMS = [
-  { name: "Windows", src: "/WindowsLogo.png", alt: "Windows logo" },
-  { name: "Mac", src: "/AppleLogo.png", alt: "Apple logo" },
+  { name: "Windows", src: `${import.meta.env.BASE_URL}WindowsLogo.png`, alt: "Windows logo" },
+  { name: "Mac", src: `${import.meta.env.BASE_URL}AppleLogo.png`, alt: "Apple logo" },
 ];
 
 export default function Platform() {

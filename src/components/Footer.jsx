@@ -37,7 +37,7 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-col items-center gap-2 sm:items-center">
-          <img src="/footerLogo.png" alt="Aispire logo" className="h-44 w-auto object-contain" loading="lazy" />
+          <img src={`${import.meta.env.BASE_URL}footerLogo.png`} alt="Aispire logo" className="h-44 w-auto object-contain" loading="lazy" />
           <p className="text-[10px] text-white/75">A product from Aispire Private Limited</p>
         </div>
       </div>

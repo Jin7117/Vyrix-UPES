@@ -11,8 +11,8 @@ export default {
         accent: "#E8C34A",
       },
       fontFamily: {
-        sans: ["'Inter'", "system-ui", "sans-serif"],
-        display: ["'Neue Montreal'", "'Inter'", "system-ui", "sans-serif"],
+        sans: ["Inter", "system-ui", "sans-serif"],
+        display: ["Inter", "system-ui", "sans-serif"],
       },
       maxWidth: {
         content: "1180px",

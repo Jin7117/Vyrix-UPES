@@ -11,7 +11,7 @@ export default function AppShowcase() {
         className="mx-auto max-w-[1035px] overflow-hidden rounded-xl border border-[#e4e4e4] bg-white shadow-[0_2px_6px_rgba(0,0,0,0.14)]"
       >
         <img
-          src="/homeDark.png"
+          src={`${import.meta.env.BASE_URL}homeDark.png`}
           alt="Vyrix application workspace with active missions and recent chats"
           className="block h-auto w-full"
           loading="lazy"
