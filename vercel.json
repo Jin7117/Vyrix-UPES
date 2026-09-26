@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/upes/:path*",
+      "destination": "/:path*"
+    }
+  ]
+}
