@@ -98,13 +98,13 @@ export default function Navbar() {
       initial={{ y: -24, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-      className={`sticky top-0 z-50 h-[60.8px] shadow-[0_2px_12px_rgba(17,17,16,0.06)] transition-[background-color,box-shadow] duration-300 md:h-[91.2px] ${
+      className={`sticky top-0 z-50 h-[48px] shadow-[0_2px_12px_rgba(17,17,16,0.06)] transition-[background-color,box-shadow] duration-300 md:h-[72px] ${
         scrolled ? "border-b border-line bg-cream/90 shadow-[0_4px_18px_rgba(17,17,16,0.09)] backdrop-blur-md" : "bg-cream"
       }`}
     >
       <nav className="mx-auto flex h-full max-w-[1760px] items-center justify-between px-6 sm:px-10 lg:pl-0 lg:pr-8">
         <a href="#top" aria-label="Vyrix home" className="flex items-center pl-2 sm:pl-3 lg:pl-4">
-          <img src="/Logo.png" alt="Vyrix" className="h-4 w-auto md:h-6" />
+          <img src="/Logo.png" alt="Vyrix" className="h-3.5 w-auto md:h-5" />
         </a>
 
         <ul className="hidden items-center gap-10 text-[12px] text-ink md:flex">

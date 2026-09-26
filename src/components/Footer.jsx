@@ -20,14 +20,14 @@ export default function Footer() {
           <p className="mt-5 text-xs text-white/70">Socials</p>
           <div className="mt-2 flex gap-3">
             <a
-              href="#"
+              href="https://www.instagram.com/vyrixbyaispire"
               aria-label="Instagram"
               className="flex h-7 w-7 items-center justify-center rounded-full bg-white text-black transition-colors hover:bg-accent"
             >
               <Instagram size={14} />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/company/vyrix/"
               aria-label="LinkedIn"
               className="flex h-7 w-7 items-center justify-center rounded-full bg-white text-black transition-colors hover:bg-accent"
             >
